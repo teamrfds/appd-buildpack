@@ -1,0 +1,12 @@
+default_versions: []
+dependencies: []
+dependency_deprecation_dates: []
+include_files:
+- README.md
+- VERSION
+- bin/supply.exe
+- bin/supply
+- manifest.yml
+- config/java/app-agent-config.xml
+language: appdynamics
+pre_package: scripts/build.sh
